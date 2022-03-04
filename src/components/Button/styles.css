@@ -1,0 +1,39 @@
+.button-buy {
+  background-color: #00285f;
+  height: 40px;
+  border: 0px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.button-buy:hover {
+  color: #fff;
+}
+
+.button-search {
+  background-color: #00285f;
+  height: 40px;
+  border: 0px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.button-search:hover {
+  color: #fff;
+}
+
+.button-show-catalog {
+  background-color: #00285f;
+  height: 40px;
+  border: 0px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.button-show-catalog:hover {
+  color: #fff;
+}

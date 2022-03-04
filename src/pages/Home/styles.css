@@ -1,0 +1,162 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 90px;
+  margin: 0 10px;
+}
+
+.advertising-card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #00285f;
+  color: #fff;
+  min-width: auto;
+  padding: 60px 0 50px 0;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  align-items: center;
+}
+
+.advertising-car-image img {
+  width: 245px;
+  margin-bottom: 35px;
+}
+
+.advertising-description {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.advertising-description h4 {
+  margin: 0 0 15px 0;
+  font-size: 22px;
+}
+
+.advertising-description p {
+  margin: 0 5px 0;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+.start-catalog-card-container {
+  margin-bottom: 30px;
+  padding: 28px 0 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ededed;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+.start-catalog-description p {
+  color: #585858;
+  margin-top: 9px;
+  margin-bottom: 0;
+}
+
+.button-show-catalog {
+  width: 174px;
+  border-radius: 5px;
+}
+
+@media (min-width: 576px) {
+  .home-container {
+    padding-top: 100px;
+    margin: 0 20px;
+  }
+
+  .advertising-card-container {
+    padding: 22px 0 40px 0;
+    margin-bottom: 30px;
+  }
+
+  .advertising-car-image img {
+    width: 333px;
+    margin-bottom: 20px;
+  }
+
+  .advertising-description {
+    width: 420px;
+  }
+
+  .advertising-description h4 {
+    font-size: 36px;
+    margin: 0;
+  }
+
+  .advertising-description p {
+    font-size: 18px;
+  }
+
+  .start-catalog-card-container {
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px 60px 40px 60px;
+  }
+
+  .button-show-catalog {
+    margin-right: 16px;
+  }
+
+  .button-show-catalog button {
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .advertising-card-container {
+    padding: 79px 0 76px 0;
+    margin-bottom: 25px;
+  }
+
+  .advertising-car-image img {
+    margin-bottom: 37px;
+  }
+
+  .start-catalog-card-container {
+    flex-direction: row;
+    justify-content: start;
+    padding: 40px 0 40px 85px;
+  }
+}
+
+@media (min-width: 992px) {
+  .advertising-card-container {
+    padding: 82px 0 124px 0;
+    margin-bottom: 30px;
+  }
+
+  .advertising-car-image img {
+    margin-bottom: 17px;
+    width: 455px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .home-container {
+    max-width: 980px;
+    padding-top: 100px;
+    margin: 0 auto;
+  }
+
+  .advertising-card-container {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 60px 85px 50px;
+  }
+
+  .advertising-description p {
+    text-align: start;
+  }  
+
+  .advertising-car-image img {
+    width: 333px;
+  }
+}
