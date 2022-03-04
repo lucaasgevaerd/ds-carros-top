@@ -5,3 +5,63 @@ $theme-colors: (
 $body-bg: #fff;
 
 @import '~bootstrap/scss/bootstrap.scss';
+
+$layout-breakpoint-x-small: 320px;
+$layout-breakpoint-small: 576px;
+$layout-breakpoint-medium: 768px;
+$layout-breakpoint-large: 992px;
+$layout-breakpoint-extra-large: 1280px;
+
+@media (min-width: $layout-breakpoint-x-small) {
+  .container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.625rem);
+    padding-left: var(--bs-gutter-x, 0.625rem);
+  }
+}
+
+@media (min-width: $layout-breakpoint-small) {
+  .container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0rem);
+    padding-left: var(--bs-gutter-x, 0rem);
+  }
+
+  .row {
+    margin-right: calc(0 * var(--bs-gutter-x));
+    margin-left: calc(0 * var(--bs-gutter-x));
+  }
+
+  .row > * {
+    padding-right: calc(var(--bs-gutter-x) * 0);
+    padding-left: calc(var(--bs-gutter-x) * 0);
+  }
+
+  .container {
+    min-width: 556px;
+  }
+}
+
+
+@media (min-width: $layout-breakpoint-medium) {
+  .container {
+      min-width: 758px;
+  }
+}
+
+@media (min-width: $layout-breakpoint-large) {
+  .container {
+      width: 962px;
+  }
+
+  .row {
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+  }
+}
+
+@media (min-width: $layout-breakpoint-extra-large) {
+  .container {
+      width: 980px;
+  }
+}

@@ -1,0 +1,92 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding: 90px 10px 0 10px;
+}
+
+.form-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ededed;
+  height: 86px;
+  border-radius: 10px;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.field-search {
+  border: none;
+  padding: 12px;
+  height: 40px;
+  min-width: 199px;
+  border-radius: 5px 0 0 5px;
+}
+
+.field-search::placeholder {
+  color: #a7a7a7;
+}
+
+.field-search:focus {
+  outline: none;
+  border: 2px solid #7b97be;
+}
+
+.button-search {
+  width: 77px;
+  border-radius: 0 5px 5px 0;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+@media (min-width: 576px) {
+  .form-container {
+    padding: 100px 20px 0 20px;
+  }
+
+  .form-card {
+    height: 123px;
+    width: 536px;
+  }
+
+  .field-search {
+    min-width: 320px;
+  }
+
+  .button-search {
+    width: 174px;
+  }
+
+  .container {
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .form-card {
+    width: 728px;
+  }
+
+  .field-search {
+    min-width: 516px;
+  }
+}
+
+@media (min-width: 992px) {
+  .form-card {
+    padding: 0 0;
+    width: 952px;
+  }
+
+  .field-search {
+    min-width: 584px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .form-card {
+    width: 979px;
+  }
+}
